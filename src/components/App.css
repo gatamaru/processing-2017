@@ -1,0 +1,12 @@
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6b7c93;
+}
+
+.app main {
+  width: 100%;
+  max-width: 700px;
+  margin: 64px auto;
+}

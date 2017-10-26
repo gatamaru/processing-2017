@@ -1,0 +1,39 @@
+.intro {
+  position: relative;
+}
+
+.intro section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 0 20px;
+}
+
+.intro .title {
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  margin-top: 64px;
+}
+
+.intro .sub-title {
+  font-size: 1.7em;
+  font-weight: 400;
+  color: white;  
+}
+
+.intro .description {
+  max-width: 50%;
+  color: #e9fcff;
+  margin-top: 1em;
+}
+
+.gatamaru {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: skewY(-8deg);
+  transform-origin: 0;
+  background-color: #4100FF;
+}
