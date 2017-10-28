@@ -37,3 +37,13 @@
   transform-origin: 0;
   background-color: #113865;
 }
+
+@media screen and (max-width: 767px) {
+  .intro .title {
+    font-size: 1.9em;
+    font-weight: 600;
+  }
+  .intro .description {
+    max-width: 90%;
+  }
+}

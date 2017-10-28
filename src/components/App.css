@@ -50,3 +50,9 @@
 .reference a:hover {
   color: #2C61D0;
 }
+
+@media screen and (max-width: 767px) {
+  .app main {
+    padding: 0 20px;
+  }
+}
