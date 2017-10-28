@@ -9,4 +9,44 @@
   width: 100%;
   max-width: 700px;
   margin: 64px auto;
+  color: rgb(77, 77, 77);
+}
+
+.app h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.app h3 {
+  margin-top: 1em;
+}
+
+.app .description {
+  padding: 0 1em;
+  font-weight: 500;
+}
+
+.container-day {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.toc {
+  font-size: 1.2em;
+  padding-top: .5em;
+  margin-left: 2em;
+}
+
+.reference {
+  padding: 1em;
+  margin-left: 1em;
+}
+
+.reference a {
+  text-decoration: underline;
+  line-height: 1.8em;
+}
+
+.reference a:hover {
+  color: #2C61D0;
 }
