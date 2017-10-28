@@ -211,8 +211,8 @@ void draw() {
 }
 ```
 
-- (mouseX)[https://processing.org/reference/mouseX.html]
-- (mouseY)[https://processing.org/reference/mouseY.html]
+- [`mouseX`](https://processing.org/reference/mouseX.html)
+- [`mouseY`](https://processing.org/reference/mouseY.html)
 
 ### 7-2. キーボードを使う
 
