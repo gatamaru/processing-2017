@@ -44,6 +44,7 @@ const App = () => (
         <h3>目次</h3>
 
         <ul className="toc">
+          <li>三角関数</li>
           <li>ノイズ</li>
           <li>パーティクル</li>
           <li>フラクタル</li>
