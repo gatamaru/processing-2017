@@ -1,10 +1,11 @@
 import React from 'react'
 
+import Storm from './Storm'
 import './Intro.css'
 
 const Intro = () => (
   <div className="intro">
-    <div className="gatamaru"></div>
+    <Storm />
     <section>
       <h1 className="title">Processingでビジュアルコーディング</h1>
       <p className="sub-title">がたまるプログラミングキャンプ2017</p>
@@ -13,6 +14,7 @@ const Intro = () => (
         線や図形を描画して，おもしろい模様や綺麗なグラフィックを描いてみましょう．
       </p>
     </section>
+    <div className="skew-cover" />
   </div>
 )
 
