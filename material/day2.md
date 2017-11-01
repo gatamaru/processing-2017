@@ -395,7 +395,7 @@ void draw() {
     strokeWeight(1 / canvasSize);
     drawTriangle(maxDepth);
     popMatrix();
-    invalidate = false
+    invalidate = false;
   }
 }
 
