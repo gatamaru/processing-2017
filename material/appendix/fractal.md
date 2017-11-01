@@ -165,7 +165,7 @@ void nextPoint() {
 
 次のパラメータも試してみて下さい．
 
-1. `numPoints` = 4, `r` = 4
+1. `numPoints` = 4, `r` = 0.4
 2. `numPoints` = 5, `r` = 0.375
 3. `numPoints` = 6, `r` = 0.333
 4. `numPoints` = 8, `r` = 0.25
