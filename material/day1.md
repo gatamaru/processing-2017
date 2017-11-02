@@ -142,7 +142,7 @@ void setup() {
 }
 
 void draw() {
-  int x = frameCount % 255;
+  int x = frameCount % 256;
   background(x, 0, 0);
 }
 ```
