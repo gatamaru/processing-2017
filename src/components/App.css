@@ -51,6 +51,16 @@
   color: #2C61D0;
 }
 
+h2 a {
+  color: #0061C4;
+  font-size: .9em;
+  text-decoration: underline;
+}
+
+h2 a:hover {
+  color: #3F87AD;
+}
+
 @media screen and (max-width: 767px) {
   .app main {
     padding: 0 20px;

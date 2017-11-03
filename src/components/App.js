@@ -4,6 +4,10 @@ import Intro from './Intro'
 import Footer from './Footer'
 import './App.css'
 
+const day1URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day1.md'
+// const day2URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day2.md'
+// const day3URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day3.md'
+
 const App = () => (
   <div className="app">
     <Intro />
@@ -13,7 +17,7 @@ const App = () => (
 
       <div className="container-day day01">
 
-        <h2><i className="twa twa-1f423"></i> 1日目 (2017/11/03)</h2>
+        <h2><i className="twa twa-1f423"></i> 1日目 (2017/11/03) <a href={day1URL} target="_blank" className="material">資料</a></h2>
 
         <h3>テーマ</h3>
 
