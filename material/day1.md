@@ -109,20 +109,6 @@ void draw() {
 
 ```java
 void setup() {
-  println(frameRate);
-}
-
-void draw() {
-}
-```
-
-- [`frameRate`](https://processing.org/reference/frameRate.html)
-- [`frameCount`](https://processing.org/reference/frameCount.html)
-
-コンソールエリアに「`10.0`」と表示されました．これは，「1秒間におよそ10回，`draw()`が呼び出される」ことを示しています．これを確認するために，次のコードを実行してみます．(実行したらすぐに停止して下さい．)
-
-```java
-void setup() {
 }
 
 void draw() {
@@ -130,6 +116,9 @@ void draw() {
 }
 ```
 
+- [`frameCount`](https://processing.org/reference/frameCount.html)
+
+「`draw()`が繰り返し呼び出される」ことを示しています．
 これ以降，この「繰り返し呼び出される`draw()`」を利用してスケッチを動かします．
 
 ### 6-1. 色を変化させる
