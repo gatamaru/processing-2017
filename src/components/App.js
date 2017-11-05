@@ -5,7 +5,7 @@ import Footer from './Footer'
 import './App.css'
 
 const day1URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day1.md'
-// const day2URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day2.md'
+const day2URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day2.md'
 // const day3URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day3.md'
 
 const App = () => (
@@ -40,7 +40,7 @@ const App = () => (
 
       <div className="container-day day02">
 
-        <h2><i className="twa twa-1f425"></i> 2日目 (2017/11/04)</h2>
+        <h2><i className="twa twa-1f425"></i> 2日目 (2017/11/04) <a href={day2URL} target="_blank" className="material">資料</a></h2>
 
         <h3>テーマ</h3>
         <p className="description">おもしろい模様や綺麗なグラフィックを描くための材料を探してみましょう。</p>
