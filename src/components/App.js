@@ -4,9 +4,9 @@ import Intro from './Intro'
 import Footer from './Footer'
 import './App.css'
 
-const day1URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day1.md'
-const day2URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day2.md'
-// const day3URL = 'https://github.com/chooblarin/gatamaru-processing/blob/master/material/day3.md'
+const day1URL = 'https://github.com/gatamaru/processing-2017/blob/master/material/day1.md'
+const day2URL = 'https://github.com/gatamaru/processing-2017/blob/master/material/day2.md'
+const day3URL = 'https://github.com/gatamaru/processing-2017/blob/master/material/day3.md'
 
 const App = () => (
   <div className="app">
@@ -58,7 +58,7 @@ const App = () => (
       </div>
 
       <div className="container-day day02">
-        <h2><i className="twa twa-1f426"></i> 3日目 (2017/11/05)</h2>
+        <h2><i className="twa twa-1f426"></i> 3日目 (2017/11/05) <a href={day3URL} target="_blank" className="material">資料</a></h2>
 
         <h3>テーマ</h3>
         <p className="description">自分の作品を発表しましょう。</p>
